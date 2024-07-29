@@ -1,0 +1,5 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="chr-action-icon__icon" aria-hidden="true" width="32"  height="32" ><defs><svg viewBox="0 0 32 32" id="arrow-forward" xmlns="http://www.w3.org/2000/svg">
+    <path d="m8.153 26.973 2.36 2.36L23.847 16 10.513 2.667l-2.36 2.36L19.127 16 8.153 26.973Z"></path>
+  </svg></defs>
+                <use xlink:href="#arrow-forward" fill="#80868B"></use>
+                </svg>

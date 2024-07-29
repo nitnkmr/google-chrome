@@ -1,0 +1,122 @@
+.homePage{
+    height: 60vh;
+    width: 100vw;
+    
+    display: flex;
+    justify-content: center;
+    font-family: sans-serif;
+    
+    .heroSection{
+        display: flex;
+        align-items: center;
+        height: 100%;
+        width: 90%;
+        flex-direction: column;
+        justify-content: center;
+        
+        gap: 20px;
+
+    }
+    .heroIcons{
+        height: 80px;
+        width: 80px;
+        margin-top: 20px;
+       
+        display: flex;
+        justify-content: center;
+     
+
+    }
+    .heroHeader{
+        display: flex;
+        align-items: center;
+        height: 156px;
+        width: 60%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 4rem;
+        font-weight:700;
+        .break{
+            justify-content: center;
+            align-items: center;
+            width: 70%;
+            display: flex;
+        }
+
+    }
+    .downloadButton{
+        display: flex;
+        align-items: center;
+       
+        width: 80%;
+        justify-content: space-between;
+        flex-direction: column;
+     
+        gap: 20px;
+        
+
+        .btn{
+            background: #336dc4;
+            height:50px ;
+            width: 240px;
+            border: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 50px;
+            color: white;
+            font-weight:600;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background: #1551ac;
+
+        }
+        .update{
+                cursor: pointer;
+                color: #3071d2;
+                font-weight: 600;
+        }
+        .version{
+            color: rgb(113, 113, 113);
+            font-size: 0.7rem;
+        }
+
+    }
+   
+    .termsAndCondition{
+        display: flex;
+        align-items: center;
+        height: 15%;
+        width: 40%;
+        flex-direction: column;
+        
+        .confirmation{
+            display: flex;
+            font-size: 0.8rem;
+            gap: 20px;
+            color: rgb(113, 113, 113);
+        }
+        .confirmation{
+            display: flex;
+            gap: 20px;
+            font-size: 0.8rem;
+            color: rgb(113, 113, 113);
+        }
+        .extrainfo{
+            font-size: 0.8rem;
+            color: rgb(113, 113, 113);
+            margin-top: 10px;
+            text-align: center;
+        }
+    }
+}
+.span{
+    color: #3071d2;
+}
+.span:hover{
+    text-decoration: underline;
+}

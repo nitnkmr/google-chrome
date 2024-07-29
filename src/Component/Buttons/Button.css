@@ -1,0 +1,40 @@
+.button{
+    height: 80px;
+    overflow: hidden;
+    width: 200px;
+  
+ 
+}
+.div{
+    height: 100%;
+    width: 100%;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 30px;
+    font-size: 2.1rem;
+    font-weight: bold;
+    animation: floatUp ease-in-out 2.5s forwards linear;
+
+}
+  
+@keyframes floatUp {
+    0% {
+      transform: translateY(-100px);
+
+    }
+    10% {
+      transform: translateY(0px);
+
+    }
+   
+    90% {
+      transform: translateY(0px);
+
+    }
+    100% {
+      transform: translateY(-100px);
+
+    }
+  }
+  

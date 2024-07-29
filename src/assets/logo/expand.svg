@@ -1,0 +1,6 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="chr-icon chr-icon--link chr-icon--18" width="24"  height="24" ><defs><svg id="mi-expand" viewBox="0 0 24 24">
+    <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"></path>
+  </svg></defs>
+                <title>icon-expand-features</title>
+                <use xlink:href="#mi-expand" fill="#5F6368"></use>
+                </svg>

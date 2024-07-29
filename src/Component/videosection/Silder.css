@@ -1,0 +1,74 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-x: hidden;
+    margin-top: 100px;
+    
+    .header{
+        height: 150px;
+        display: flex;
+        width: 700px;
+        font-size: 3.1rem;   
+    }
+    .videoContainer{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        gap: 10%;
+
+    
+    .video{
+        height: 37%;
+        width: 30%;
+        border: 1px solid rgb(206, 204, 207);
+        overflow: hidden;
+        background-color: white;
+        position: absolute;
+        bottom: -50%;
+        border-radius: 10px;
+        video{
+            margin-top: 5%;
+            width: 90%;
+            height: 100%;
+            border-radius: 10px;
+            z-index: 1000;
+        }
+        .content{
+            height: 30%;
+            width: 90%;
+            display: flex;
+            align-items: center;
+            margin-left: 20px;
+            margin-top: 3%;
+            gap: 20px;
+            font-size: 12px;
+        }
+    }
+    }
+}
+.sliderButton{
+    height: 5%;
+    width: 10%;
+    margin-left: -40%;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 100px;
+    
+    .button{
+        height: 50px;
+        width: 50px;
+        background: #a0bbee;
+        cursor: pointer;
+        
+    }
+    .right{
+        background-color: rgb(219, 219, 219);
+        rotate:calc(180deg);
+    }
+}
